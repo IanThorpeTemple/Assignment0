@@ -6,7 +6,7 @@ fun main(){
     val triangle1 = Triangle("Triangle1")
     val equilateralTriangle1 = EquilateralTriangle("EquilateralTriangle1")
 
-    val scanner = java.util.Scanner(System.`in`)
+    val scanner = Scanner(System.`in`)
 
     println("Enter the length and height for Square:")
     val square1Length = scanner.nextDouble()
