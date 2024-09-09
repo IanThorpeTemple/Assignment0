@@ -1,5 +1,3 @@
-import kotlin.math.sqrt
-
 class EquilateralTriangle(_name: String) : Triangle(_name) {
     fun setDimensions(_sides: Double){
         if(_sides <= 0){
